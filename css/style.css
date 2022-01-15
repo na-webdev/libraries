@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif; }
+
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #454647; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #343535; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; }
+
+a {
+  text-decoration: none;
+  color: gold; }
+
+a:hover,
+i:hover {
+  color: white;
+  cursor: pointer; }
+
+body {
+  background-color: #454647; }
+
+.title {
+  font-size: 32px; }
+
+input {
+  background-color: #343535 !important;
+  border: 0 !important;
+  outline: none;
+  box-shadow: none !important;
+  color: white !important;
+  font-size: 20px !important; }
+
+input::placeholder {
+  font-size: 20px; }
+
+.row > div {
+  margin-bottom: 20px; }
+
+.library-card {
+  padding: 20px;
+  background-color: #343535;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  height: 100%;
+  margin-bottom: 20px;
+  color: white; }
+  .library-card .header-card,
+  .library-card a,
+  .library-card i {
+    color: gold !important; }
+  .library-card .library-name {
+    font-size: 20px;
+    text-transform: capitalize; }
+
+#library-data {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.527);
+  display: grid;
+  place-items: center;
+  overflow: hidden; }
+  #library-data .library-data-box {
+    border-radius: 8px;
+    background-color: #454647;
+    height: 90vh;
+    width: 100%;
+    padding: 20px; }
+  #library-data h1 {
+    text-transform: capitalize; }
+  #library-data #closeLibraryData {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white; }
+  #library-data .library-shorts li {
+    margin-left: 10px; }
+  #library-data .library-links {
+    flex: 1;
+    overflow: auto; }
+    #library-data .library-links li {
+      background-color: #343535 !important;
+      color: gold;
+      padding: 10px;
+      border-radius: 8px;
+      word-break: break-all;
+      margin-bottom: 10px;
+      gap: 20px; }
+    #library-data .library-links .link {
+      word-break: break-all;
+      width: 100%; }
+
+.gold {
+  color: gold !important; }
+
+.small-box {
+  padding: 5px 8px;
+  border-radius: 4px;
+  background-color: #343535;
+  margin-bottom: 4px;
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
